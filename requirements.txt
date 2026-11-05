@@ -1,0 +1,11 @@
+# Python 3.11 권장 (3.12 이상에서는 transformers 4.44.2 설치가 실패할 수 있음)
+transformers==4.44.2
+sentencepiece
+torch            # GPU: pip install torch --index-url https://download.pytorch.org/whl/cu118
+pandas
+numpy
+scikit-learn
+matplotlib
+ipykernel
+# SKT 공식 KoBERT 토크나이저 (pip 로 별도 설치)
+# pip install "https://github.com/SKTBrain/KoBERT/archive/refs/heads/master.zip#subdirectory=kobert_hf"
