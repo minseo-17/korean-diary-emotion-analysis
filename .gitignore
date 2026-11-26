@@ -41,3 +41,6 @@ outputs/diary_sentences_context_v*.csv
 outputs/calendar_emotion_context_*.png
 outputs/graph_positive_context_*.png
 outputs/graph_negative_context_*.png
+
+# 12 평가 실행 결과
+outputs/evaluation_12_*.csv
