@@ -1,0 +1,43 @@
+# Python 가상환경
+.venv/
+
+# Jupyter 임시 파일
+.ipynb_checkpoints/
+
+# Python 캐시
+__pycache__/
+*.pyc
+
+# 모델 파일
+models/*.pt
+
+# 11 사용자 개인 일기
+data/sample_diary_11_user.csv
+
+# 11 사용자 분석 결과
+outputs/diary_daily_11_user.csv
+outputs/diary_sentences_11_user.csv
+
+# 11 데모 실행 중 생성되는 데이터
+data/sample_diary_11_demo_v2.csv
+data/sample_diary_11_demo_targets_v2.csv
+
+# 11 데모 분석 결과
+outputs/diary_daily_11_demo_2026_09.csv
+outputs/diary_sentences_11_demo_2026_09.csv
+
+# 이전 11 테스트용 자동 생성 데이터
+data/sample_diary_11_auto30.csv
+data/sample_diary_11_auto30_targets.csv
+
+# 감정 분석 실행 시 자동 생성되는 결과
+outputs/calibration_*.npz
+outputs/class_thresholds_*.csv
+outputs/threshold_compare_*.csv
+
+outputs/diary_daily_context_v*.csv
+outputs/diary_sentences_context_v*.csv
+
+outputs/calendar_emotion_context_*.png
+outputs/graph_positive_context_*.png
+outputs/graph_negative_context_*.png

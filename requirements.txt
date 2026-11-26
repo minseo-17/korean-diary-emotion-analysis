@@ -7,5 +7,7 @@ numpy
 scikit-learn
 matplotlib
 ipykernel
+ipywidgets==8.1.9
+
 # SKT 공식 KoBERT 토크나이저 (pip 로 별도 설치)
 # pip install "https://github.com/SKTBrain/KoBERT/archive/refs/heads/master.zip#subdirectory=kobert_hf"
